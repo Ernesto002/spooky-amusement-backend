@@ -3,7 +3,7 @@ class CreateAttractions < ActiveRecord::Migration[6.0]
     create_table :attractions do |t|
       t.string :title
       t.string :description
-      t.integer :scare_rating
+      t.integer :tickets
       t.string :image
       t.references :park, null: false, foreign_key: true
 

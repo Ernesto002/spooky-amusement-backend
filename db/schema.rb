@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2021_09_28_183011) do
   create_table "attractions", force: :cascade do |t|
     t.string "title"
     t.string "description"
-    t.integer "scare_rating"
+    t.integer "tickets"
     t.string "image"
     t.integer "park_id", null: false
     t.datetime "created_at", precision: 6, null: false
