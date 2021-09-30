@@ -13,6 +13,6 @@ class AttractionsController < ApplicationController
     private
 
     def attraction_params
-        params.require(:attraction).permit(:title, :description, :tickets, :image)
+        params.require(:attraction).permit(:title, :description, :tickets, :image, :user_id)
     end
 end
