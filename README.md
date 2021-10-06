@@ -1,24 +1,50 @@
-# README
+# Spooky Amusement
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Spooky Amusement! With this application you can find information on any one of our Spooky Amusement parks!
+After browsing, feel free to add your own custom amusement park with your own unique attractions!
 
-Things you may want to cover:
+# Installation
 
-* Ruby version
+Clone this repository by entering
+```bash
+git clone git@github.com:Ernesto002/spooky-amusement-backend.git
+```
+into your terminal
 
-* System dependencies
+Then clone the front-end portion of the app by entering 
+```bash
+git clone git@github.com:Ernesto002/spooky-amusement-frontend.git
+```
+into your terminal
 
-* Configuration
+# Usage
 
-* Database creation
+Once you've cloned both repositories, head into the back-end directory then enter
+```bash
+rake db:migrate
+rake db:seed
+```
+into your terminal to seed the database
 
-* Database initialization
+Then run
+```bash
+rails s
+```
+into your terminal to start running the API in order for the app to function.
 
-* How to run the test suite
+Then head into the front-end directory and run
+```bash
+explorer.exe index.html
+```
+into your terminal for windows
 
-* Services (job queues, cache servers, search engines, etc.)
+OR
 
-* Deployment instructions
+```bash
+open index.html
+```
+into your terminal for mac in order to use the app.
 
-* ...
+# Front-end repository
+
+The front-end repository for this app can be found [here](https://github.com/Ernesto002/spooky-amusement-frontend).
